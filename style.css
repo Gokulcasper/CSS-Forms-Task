@@ -1,13 +1,28 @@
 
 
 .formtext{
-background-color: gainsboro;
+background-color: rgb(244, 244, 244);
 padding: 20px;
-
 }
 
-form button{
-background-color: rgb(88, 177, 88);
-border: none;
-border-radius: 2px;
+input[type="text"]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    border:1px solid rgb(205, 201, 201);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type=submit]{
+    width: 100%;
+    background-color: rgb(135, 185, 135);
+    border: none;
+    border-radius: 2px;
+    padding: 14px 20px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+button[type=submit]:hover{
+background-color: rgb(67, 153, 67);
 }
